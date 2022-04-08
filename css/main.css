@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Favorit, Nib ,Cambria ,-apple-system ,BlinkMacSystemFont;
+    src: url(https://primahealthcredit.com/);
+ }
+:root{
+    --green: #bbff00;
+    --darkgreen: #00ca04;
+    --bggreen: #9cc400;
+    --red: #FF4617;
+    --white: #ffffff;
+}
+ * {
+     font-weight: 500;
+    font-family: Favorit, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ }
+h1, h2{
+    font-family: Nib, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 600;
+ }
+ #navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+    z-index: 3;
+     background-color: var(--white);
+     height: 100px;
+ }
+
+ body{
+     background-color: var(--green);
+ }
+ .dec{
+     text-decoration: none;
+ }
+ .bt-red:hover, .red-circle{
+    background-color: var(--red);
+ }
+ .btnbg, .bt-green:hover, .green-circle{
+     background-color: var(--darkgreen);
+ }
+ .green-circle:hover, .red-circle:hover{
+     background-color: var(--white);
+ }
+ .green-circle, .red-circle, .cir_bg{
+     width: 30px;
+     height: 30px;
+ }
+ .bg-green{
+     background-color: var(--bggreen);
+ }
+ .card{
+     height: 400px;
+ }
+ .t-p{
+     position: absolute;
+     bottom: 0;
+     left: 30%;
+ } 
+
+ @media screen and (max-width: 450px) {
+     .dis{
+         display: none;
+     }
+ }
